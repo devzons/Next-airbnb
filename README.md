@@ -39,3 +39,23 @@ if (process.env.NODE_ENV !== 'production') globalThis.prisma = client
 
 export default client
 ```
+
+### Github
+
+`Settings > Developer settings > OAuth Apps > new OAuth app`
+
+### Google developer console
+
+- New Projects
+- Project name: next-airbnb, create
+- Select project
+- APIs and services > Enable APIS and services
+- OAuth consent screen > External
+  - App name, User support email, Developer contact information, save and continue
+  - Save and Continue
+  - Save and Continue
+- Credentials
+  - Create credentials > OAuth client ID
+  - Application type: Web application
+  - Authorised redirect URIs: http://localhost:3000/api/auth/callback/google
+  - Create
