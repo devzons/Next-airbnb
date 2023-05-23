@@ -91,17 +91,15 @@ const RegisterModal = () => {
         icon={AiFillGithub}
         onClick={() => {}}
       />
-      <div className='text-neutral-500 text-center mt-4 font-light'>
-        <p>
-          Already have an account?
-          <span
-            onClick={() => {}}
-            className='text-neutral-800 cursor-pointer hover:underline'
-          >
-            {' '}
-            Log in
-          </span>
-        </p>
+      <div className='flex flex-row justify-center items-center text-neutral-500 text-center mt-4 font-light gap-2'>
+        <div>Already have an account?</div>
+        <div
+          onClick={registerModal.onClose}
+          className='text-neutral-800 cursor-pointer hover:underline'
+        >
+          {' '}
+          Log in
+        </div>
       </div>
     </div>
   )

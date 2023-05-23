@@ -1,9 +1,9 @@
 import { Nunito } from 'next/font/google'
-import './globals.css'
-import Navbar from './components/navbar/Navbar'
-import Footer from './components/footer/Footer'
-import ClientOnly from './components/ClientOnly'
-import RegisterModal from './components/modals/RegisterModal'
+import '@/styles/globals.css'
+import Navbar from '@/components/navbar/Navbar'
+import Footer from '@/components/footer/Footer'
+import ClientOnly from '@/components/ClientOnly'
+import RegisterModal from '@/components/modals/RegisterModal'
 import ToasterProvider from './providers/ToasterProvider'
 
 export const metadata = {
