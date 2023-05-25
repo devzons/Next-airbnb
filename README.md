@@ -59,3 +59,13 @@ export default client
   - Application type: Web application
   - Authorised redirect URIs: http://localhost:3000/api/auth/callback/google
   - Create
+
+## World Countries, Map
+
+```bash
+npm install world-countries
+npm install react-select
+
+npm install leaflet @types/leaflet react-leaflet
+
+```
